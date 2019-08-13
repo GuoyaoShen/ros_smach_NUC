@@ -5,5 +5,5 @@
 ### TO DO:
 * test passing data between node and node of a state machine (DONE)
 * test looping in one state in a state machine (DONE)
-* test concurrence container for condition judgement
+* test concurrence container for condition judgement (DONE)
 * decide all msg types in NUC
