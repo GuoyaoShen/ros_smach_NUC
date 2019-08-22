@@ -13,4 +13,4 @@
 * DO NOT define callback function for subscriber outside of state which has subscriber in it, won't pass msg data correctly, because smach isolate data access strictly.
 
 ### Architecture of Smach
-![smach architecture](https://github.com/GuoyaoShen/ros_smach_NUC/blob/master/smach_picture/smach_v2.0.png "smach architecture")
+![smach architecture](https://github.com/GuoyaoShen/ros_smach_NUC/blob/master/smach_picture/smach_v2.2.jpg "smach architecture")
