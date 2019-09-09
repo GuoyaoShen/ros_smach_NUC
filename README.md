@@ -12,6 +12,10 @@
 * Concurrence container do "execute()" function for every inner state first every loop. So DO NOT init Subscriber in Concurrence Container and pass data to states because this cannot get right msg. Just init subscriber in "__init__()" function of every state.
 * DO NOT define callback function for subscriber outside of state which has subscriber in it, won't pass msg data correctly, because smach isolate data access strictly.
 
+### Quick Start:
+* You can see picture of "Architecture of Smach" for the whole architecture of the state machine work.
+* If you want more detail about how different behaviors linked with triggers, you can start from the concurrence container's outcome_map.
+
 ### Architecture of Smach
 ![smach architecture](https://github.com/GuoyaoShen/ros_smach_NUC/blob/master/smach_picture/smach_v2.2.jpg "smach architecture")
 
